@@ -10,7 +10,7 @@ function App() {
   }
   return (
     <div id="main">
-      <button id="click" onClick={handleclick}>
+      <button id="click" onClick={handleclick()}>
         <p id="para">{text}</p>
       </button>
     </div>
