@@ -11,7 +11,8 @@ function App() {
   return (
     <div id="main">
       <button id="click" onClick={handleclick()}>
-        <p id="para">{text}</p>
+        <p id="para">click</p>
+        {text}
       </button>
     </div>
   );
